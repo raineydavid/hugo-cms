@@ -2,13 +2,9 @@
 title: "Values"
 image: /img/about-jumbotron.jpg
 values:
-  - heading: "Shade-grown coffee"
-    text: >
-      Coffee is a small tree or shrub that grows in the forest
-      understory in its wild form, and traditionally was grown
-      commercially under other trees that provided shade. The
-      forest-like structure of shade coffee farms provides habitat for
-      a great number of migratory and resident species.
+  - heading: "🎥SafeFam Certified"
+    text: > SafeFam is a training program for family and kids content creators on YouTube. It has been designed to empower them to better understand the digital requirements of the under-13 audience.
+      https://www.superawesome.com/safefam/
     imageUrl: "/img/about-shade-grown.jpg"
   - heading: "Single origin"
     text: >
