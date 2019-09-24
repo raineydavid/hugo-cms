@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `SHY Toys`,
   },
   plugins: [
     {
@@ -14,16 +14,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        // trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
+      
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
-        start_url: `/`,
+        name: `SHY Toys - Stephanie and Hannah Kid Influencers`,
+        short_name: `SHY.Toys`,
+        description: `We are 7 year old twin YouTubers who love toys and having fun`,
+        start_url: `https://shy.toys`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
         display: `standalone`,
@@ -43,5 +44,7 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-theme-ui`,
+
   ],
 }
